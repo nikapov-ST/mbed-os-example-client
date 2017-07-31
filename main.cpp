@@ -29,6 +29,8 @@
 // easy-connect compliancy, it has 2 sets of wifi pins we have only one
 #define MBED_CONF_APP_ESP8266_TX MBED_CONF_APP_WIFI_TX
 #define MBED_CONF_APP_ESP8266_RX MBED_CONF_APP_WIFI_RX
+#define MBED_CFG_SPWF01SA_TX MBED_CONF_APP_WIFI_TX
+#define MBED_CFG_SPWF01SA_RX MBED_CONF_APP_WIFI_RX
 #include "easy-connect/easy-connect.h"
 
 #ifdef TARGET_STM
